@@ -8,8 +8,8 @@ public class Iterator3 {
         List.add(5);
         List.add(6);
         List.add(7);
-        List.add(8);
-        List.add(9);
+        // List.add(8);
+        // List.add(9);
         ListIterator<Integer> it=List.listIterator();
          while (it.hasNext()) {
              Integer x= it.next();
