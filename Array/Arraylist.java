@@ -11,5 +11,12 @@ public class Arraylist {
 
         System.out.println(arr.get(2));
         System.out.println(arr);
+        arr.set(2,40); // TO change element
+        System.out.println(arr);
+
+        int n=arr.size();
+        for(int i=0;i<n;i++){
+            System.out.print(arr.get(i)+" ");
+        }
     }
 }
