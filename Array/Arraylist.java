@@ -14,7 +14,7 @@ public class Arraylist {
         arr.set(2,40); // TO change element
         System.out.println(arr);
 
-        int n=arr.size();
+        int n=arr.size(); // to get size of element of an Array
         for(int i=0;i<n;i++){
             System.out.print(arr.get(i)+" ");
         }
