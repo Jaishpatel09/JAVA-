@@ -20,9 +20,25 @@ public class Recall {
 
         //Print Square of a number
 
-        System.out.print("Enter a Num : ");
-        int n=sc.nextInt();
-        int s=n*n;
-        System.out.println("The Square of the num is : "+s);
+        // System.out.print("Enter a Num : ");
+        // int n=sc.nextInt();
+        // int s=n*n;
+        // System.out.println("The Square of the num is : "+s);
+
+        // inc operator
+
+        // int a =10;
+        // ++a;//pre increment
+        // a++;// post increment 
+        // System.out.println(a);
+
+
+        // decrement operator
+
+
+        int z=100;
+        --z; // pre decrement
+        z--; //post decrement
+        System.out.println(z);
     }
 }
