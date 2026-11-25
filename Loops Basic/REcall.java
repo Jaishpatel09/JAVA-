@@ -22,8 +22,13 @@ public class REcall {
         // if (n>=0) System.out.println("N");
         // else System.out.println("-N");
 
-        if (n<0) n=-n;
-        System.out.println(n);
+      //   if (n<0) n=-n;
+      //   System.out.println(n);
+
+      if (n%2==0 || n%5==0) {
+         System.out.println("Divisible");
+      }
+      else System.out.println("Not Divisible");
 
      }
 }
