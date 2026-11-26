@@ -3,8 +3,10 @@ import java.util.Scanner;
 public class REcall {
      public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.print("Enter a Num: ");
-        int n=sc.nextInt();
+        System.out.print("Enter Sides: ");
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=sc.nextInt();
 
 
         // Odd Even
@@ -25,10 +27,13 @@ public class REcall {
       //   if (n<0) n=-n;
       //   System.out.println(n);
 
-      if (n%3==0 || n%5==0) {
-         System.out.println("Divisible");
-      }
-      else System.out.println("Not Divisible");
+   //    if (n%3==0 || n%5==0) {
+   //       System.out.println("Divisible");
+   //    }
+   //    else System.out.println("Not Divisible");
 
-     }
+     if (a+b>c && b+c>a && c+a>b) {
+      System.out.println("This is a Triangle");
+     } else System.out.println("This is not a Triangle !");
+   }
 }
