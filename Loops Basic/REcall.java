@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class REcall {
      public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.print("Enter Sides: ");
+        System.out.print("Enter Nums: ");
         int a=sc.nextInt();
         int b=sc.nextInt();
-        int c=sc.nextInt();
+        // int c=sc.nextInt();
 
 
         // Odd Even
@@ -32,8 +32,17 @@ public class REcall {
    //    }
    //    else System.out.println("Not Divisible");
 
-     if (a+b>c && b+c>a && c+a>b) {
-      System.out.println("This is a Triangle");
-     } else System.out.println("This is not a Triangle !");
+    //  if (a+b>c && b+c>a && c+a>b) {
+    //    System.out.println("This is a Triangle");
+    //   } else System.out.println("This is not a Triangle !");
+
+    // if (a>b && a>c) {
+    //   System.out.println("First Num is Greater");
+    // } else if (b>a && b>c) {
+    //   System.out.println("Second num is greater");
+    // }else System.out.println("Third num is greater");
+ 
+   //Ternary Operator
+       System.out.println((a>b) ? "First is Greater" :"Second is Greater"); 
    }
 }
